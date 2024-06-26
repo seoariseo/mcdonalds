@@ -1,0 +1,34 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Bree+Serif&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+a{text-decoration: none; color: inherit;}
+
+ul, li, ol{ list-style: none;}
+
+table{border-collapse: collapse;}
+/*border-cllapse = 이중선을 안하고 싶을 때 사용 */
+
+html, body{
+    font-size: 16px;
+    color: black;
+    /* font-family: "Bree Serif", "돋움" , serif; */
+    /* font-family: "Playwrite AU TAS", "굴림" , cursive; */
+    /* font-family: "Assistant", "돋움" , sans-serif; */
+    font-family: 'S-CoreDream-3Light';
+}
+
+img{vertical-align: bottom;}
+
+.clear_fix::after , .clear_fix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+
